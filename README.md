@@ -4,7 +4,7 @@ Este é o nosso projeto em WEB.
 
 # Tecnologias
 
-- [ReactJS](https://reactjs.org/docs/getting-started.html).
+- [ReactNative](https://reactnative.dev/docs/getting-started).
 - [MySQL](https://dev.mysql.com/doc/).
 
 ## Quem somos
