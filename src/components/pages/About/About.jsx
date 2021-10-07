@@ -1,18 +1,17 @@
 import './about.css';
 
-import edu from '../../img/Eduardo.png'
-import hen from '../../img/hen.jpg'
-import gus from '../../img/gus.jfif'
+import edu from '../../../img/Eduardo.png'
+import hen from '../../../img/hen.jpg'
+import gus from '../../../img/gus.jfif'
 
-import BarraFerramentas from '../layout/BarraFerramentas';
+import SearchBox from '../../layout/SearchBox/SearchBox';
 import { Link } from 'react-router-dom'
 
 function About() {
   return (
-    /*Barra de ferramentas */
     <div className="App">
       <header>
-        <BarraFerramentas />
+        <SearchBox />
       </header>
       
       <div className="about-section">
@@ -43,7 +42,7 @@ function About() {
             </p>
               <h1>Funcionalidades</h1>
             <p>
-            Por meio da Starployee, os usuários podem criar organizações, investir em outras companhias, ingressar no mercado e divulgar startups. Tudo isso por meio do matching, citado anteriormente.
+              Por meio da Starployee, os usuários podem criar organizações, investir em outras companhias, ingressar no mercado e divulgar startups. Tudo isso por meio do matching, citado anteriormente.
             </p>
         </div>
       </div>

@@ -1,13 +1,13 @@
 import './Feed.css'
 import { Link } from 'react-router-dom'
 
-import escala from '../../img/escala.png'
-import post from '../../img/post.png'
-import perfil from '../../img/perfil.png'
-import deuloop from '../../img/deuloop.png'
-import nubank from '../../img/nubank.png'
+import escala from '../../../img/escala.png'
+import post from '../../../img/post.png'
+import perfil from '../../../img/perfil.png'
+import deuloop from '../../../img/deuloop.png'
+import nubank from '../../../img/nubank.png'
 
-import BarraFerramentas from '../layout/BarraFerramentas.jsx'
+import SearchBox from '../../layout/SearchBox/SearchBox'
 
 function Feed() {
   return (
@@ -15,7 +15,7 @@ function Feed() {
     <div className="Feed">
       
       <header>
-        <BarraFerramentas />
+        <SearchBox />
       </header>
       
       {/* post timeline*/}

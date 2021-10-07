@@ -1,13 +1,13 @@
 import React from "react"
-import './barraFerramentas.css'
+import './SearchBox.css'
 import { Link } from 'react-router-dom'
 
-import logo from './logo.png'
-import perfil from '../../img/perfil.png'
-import investimento from '../../img/investimento.png'
-import organizacao from '../../img/organizacao.png'
+import logo from '../logo.png'
+import perfil from '../../../img/perfil.png'
+import investimento from '../../../img/investimento.png'
+import organizacao from '../../../img/organizacao.png'
 
-function BarraFerramentas() {
+function SearchBox() {
     return (
         <div className="barra-ferramentas">
             <Link to="/"><img src={logo} alt="" className="logo" /> </Link>    
@@ -27,4 +27,4 @@ function BarraFerramentas() {
         </div>
     )
 }
-export default BarraFerramentas;
+export default SearchBox;

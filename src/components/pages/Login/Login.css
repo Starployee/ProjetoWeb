@@ -1,0 +1,89 @@
+.l-Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.l-photo {
+    margin-top: 3vh;
+    margin-left: 3vh;
+    width: 30vh;
+}
+
+.LogoIcon {
+    width: 30vh;
+}
+
+.l-i-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-Informacoes {
+    border-radius: 79px;
+    width: 40%;
+    height: 80vh;
+    background-color: #dbb670;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-inputs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.l-inputs input{
+    background-color: white;
+    border: none;
+    align-items: center;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 45vh;    
+    height: 5vh;
+    margin: 10px;
+    margin-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.i-columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.l-BTN-C {
+    text-decoration: none;
+    width: 30%;
+    /*margin-left: 40%;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.l-BTN-C button{
+    transition: 900ms;
+    bottom: 0;
+    border-radius: 79px;
+    background-color: black; 
+    border: none;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 78px;
+    height: 10vh;
+}
+
+.l-BTN-C button:hover{
+    background-color: white;
+    color: black;
+    
+}

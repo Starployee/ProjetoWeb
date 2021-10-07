@@ -1,0 +1,62 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo {
+    padding-left: 10px;
+    width: 40%;
+    height: 100%;
+}
+
+.p-photo {
+    height: 70%;
+    width: 70%;
+}
+
+.i-container {
+    width: 60%;
+    height: 100vh;
+    background-color: #f8e19b;
+}
+
+.Informacoes {
+    padding-top: 25vh;
+    padding-left: 7vh;
+}
+
+.Informacoes label{
+    font-size: 50px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.BTNS {
+    display: flex;
+    flex-direction: column;
+}
+
+.BTNS button{
+    background-color: white;
+    border: none;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 45vh;
+    height: 5vh;
+}
+
+.espace {
+    height: 30px;
+}
+
+
+.BTNS button:hover{
+    background-color: lightgrey;
+}
