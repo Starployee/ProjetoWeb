@@ -14,9 +14,7 @@ function Interests () {
     }
 
     function a () {
-        if (classe === "E-search-txt"){
-            setClasse("ativado");
-        }
+        setClasse("E-ativado");
     }
 
     return (
@@ -53,12 +51,5 @@ function Interests () {
         </div>
     )
 }
-
-/*var $input    = document.getElementById('input-file'),
-    $fileName = document.getElementById('file-name');
-
-$input.addEventListener('change', function(){
-  $fileName.textContent = this.value;
-});*/
 
 export default Interests 

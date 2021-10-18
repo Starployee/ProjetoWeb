@@ -10,7 +10,7 @@ import organizacao from '../../../img/organizacao.png'
 function SearchBox() {
     return (
         <div className="barra-ferramentas">
-            <Link to="/"><img src={logo} alt="" className="logo" /> </Link>    
+            <Link to="/Feed"><img src={logo} alt="" className="logo" /> </Link>    
 
             <div class="search-box">
                 <input class="search-txt" type="text" name="" placeholder="Pesquisar"/>
@@ -19,10 +19,23 @@ function SearchBox() {
                 </a>
             </div>
 
-             <Link to="/"><img src={organizacao} alt="" className="b-icon"/> </Link>
-             <Link to="/"><img src={investimento} alt="" className="b-icon"/> </Link>
-             <Link to="/"><img src={perfil} alt="" className="b-icon"/> </Link>
+            <Link to="/" className="Icon-link"><img src={organizacao} alt="" className="b-icon" id="orga"/> 
+             
+                <span class="tooltip">Organização</span>
 
+            </Link> 
+
+             <Link to="/" className="Icon-link"><img src={investimento} alt="" className="b-icon" id="invest"/> 
+
+             <span class="tooltip">Investimento</span>
+
+             </Link>
+
+             <Link to="/Personal" className="Icon-linkPerfil"><img src={perfil} alt="" className="b-icon" id="perfil"/> 
+
+             <span class="tooltip">Perfil</span>
+
+             </Link>
 
         </div>
     )

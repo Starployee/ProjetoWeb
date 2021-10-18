@@ -67,5 +67,54 @@
   }
 
   .b-icon {
-    width: 55px;
+    width: 60px;
+  }
+
+  .fas .fa-chart-line {
+    font-size: 55px;
+  }
+
+  .tooltip{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    top: 48px;
+    left: -20px;
+    z-index: 3;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 0s;
+
+  }
+  .Icon-link {
+    margin-top: 45px;
+    align-items: center;
+    justify-content: center;
+  }
+  .Icon-link:hover > .tooltip{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.4s ease;
+    left: 25%;
+    transform: translateX(-25%);
+    color: black;
+  }
+
+  .Icon-linkPerfil {
+    margin-top: 45px;
+    align-items: center;
+    justify-content: center;
+  }
+  .Icon-linkPerfil:hover > .tooltip{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.4s ease;
+    color: black;
   }

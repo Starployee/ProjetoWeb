@@ -76,14 +76,14 @@ function Feed() {
               <div className="list-stars">
                 <img src={nubank} alt="" className="star-logo" />
                 <p className="star-name"> Nubank</p>
-                </div>
+              </div>
             </div>
           </div>
-          <p className="sobre-link">Starployee©</p>
-          <Link to="/about"><a href="/" className="sobre-link">Sobre</a></Link>
+            <p className="sobre-link">Starployee©</p>
+            <Link to="/about"><a href="/" className="sobre-link">Sobre</a></Link>
         </div>
       </div>
-    </div> 
+    </div>
   );
 }
 export default Feed;

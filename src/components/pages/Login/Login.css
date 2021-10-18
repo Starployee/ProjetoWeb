@@ -40,6 +40,7 @@
 .l-inputs input{
     background-color: white;
     border: none;
+    outline: none;
     align-items: center;
     color: black;
     display: inline-block;
@@ -67,7 +68,7 @@
 }
 
 .l-BTN-C button{
-    transition: 900ms;
+    transition: transform .2s;
     bottom: 0;
     border-radius: 79px;
     background-color: black; 
@@ -78,12 +79,13 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 78px;
     height: 10vh;
 }
 
 .l-BTN-C button:hover{
+    transform: scale(1.1);
     background-color: white;
     color: black;
+    
     
 }

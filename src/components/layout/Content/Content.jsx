@@ -7,6 +7,9 @@ import SingUp from '../../pages/SignUp/SignUp'
 import Login from '../../pages/Login/Login'
 import Interests from '../../pages/SignUp/Interests'
 import Experence from '../../pages/SignUp/Experence'
+import Outsource from '../../pages/Perfil/Outsource/Outsource'
+import Investment from '../../pages/Investment/Investment'
+import Personal from '../../pages/Perfil/Personal/Personal'
 
 const Content = props => (
     <main className="Content">
@@ -28,6 +31,15 @@ const Content = props => (
             </Route>
             <Route path="/Feed"> 
                 <Feed />
+            </Route>
+            <Route path="/Outsource"> 
+                <Outsource />
+            </Route>
+            <Route path="/Personal"> 
+                <Personal />
+            </Route>
+            <Route path="/Investment"> 
+                <Investment />
             </Route>
             <Route path="/About">
                 <About />

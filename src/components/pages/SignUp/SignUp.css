@@ -55,6 +55,7 @@
     margin-bottom: 35px;
     padding-left: 20px;
     padding-right: 20px;
+    outline: none;
 }
 
 .i-columns {
@@ -85,9 +86,10 @@
     cursor: pointer;
     border-radius: 78px;
     height: 17vh;
-    transition: 900ms;
+    transition: transform .2s;
 }
 
 .BTN-C button:hover{
     background-color: #8d6823;
+    transform: scale(1.1);
 }

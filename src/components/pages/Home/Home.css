@@ -50,13 +50,14 @@
     border-radius: 30px;
     width: 45vh;
     height: 5vh;
+    transition: transform .2s;
 }
 
 .espace {
     height: 30px;
 }
 
-
 .BTNS button:hover{
     background-color: lightgrey;
+    transform: scale(1.1);
 }

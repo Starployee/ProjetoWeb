@@ -75,18 +75,21 @@
     font-size: 0px;
   }
   
-  .ativado {
+  .E-ativado {
     border: none;
     background: none;
     outline: none;
-    float: left;
     padding: 0;
     color: black;
     font-size: 16px;
     transition: 0.4s;
     line-height: 40px;
     width: 240px;
-    padding: 0 6px;
+    height: 40px;
+    padding: 0 6px;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block; 
   }
 
   .E-search-box:hover > .E-search-btn {
@@ -127,7 +130,7 @@
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
-    height: 17vh;
+    height: 10vh;
     transition: 900ms;
 }
 

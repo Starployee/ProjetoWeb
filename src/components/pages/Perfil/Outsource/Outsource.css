@@ -1,0 +1,106 @@
+
+.o-perfil {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-left: 230px;
+  padding-right: 0px;
+  padding-top: 11%;
+  padding-bottom: 2%;
+}
+
+.o-perfil-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.o-perfil-img {
+  width: 20vh;
+  height: 20vh;
+  margin-right: 20vh;
+}
+
+.o-perfil-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.o-perfil-seguidores {
+  display: flex;
+  flex-direction: row;
+}
+
+.o-label{
+  margin-right: 3vh;
+  padding: 4px;
+}
+
+.o-perfil-seguidores button{
+  padding: 0px 10px 0px 10px;
+  border-radius: 79px;
+  background-color: #BF7E04; 
+  border: none;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  transition: 900ms;
+}
+
+.o-perfil-seguidores button:hover {
+  background-color: #966710;
+}
+
+
+.o-number {
+  border: solid 0.5px #707070;
+  border-radius: 40px;
+  padding: 4px;
+}
+
+.o-interesses {
+  width: 100%;
+}
+
+.interesse-label {
+  display: flex;
+}
+
+.interesse-label p{
+  margin-left: 10px;   
+}
+
+.o-perfil-info2 {
+  display: flex;
+}
+
+.o-interesses p{
+  margin-bottom: 20px;
+}
+
+.invest button{
+  margin-top: calc(50% - 21px);
+  padding: 15px 20px 15px 20px;
+  border-radius: 79px;
+  background-color: #BF7E04; 
+  border: none;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  transition: 900ms;
+}
+
+.invest button:hover {
+  background-color: #966710;
+}
+
+.invest svg{
+  margin-right: 10px;
+}
