@@ -1,0 +1,72 @@
+.u-info_box-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.u-info_box {
+    background-color: #dbb670;
+    height: 100%;
+    width: 60%;
+    border-radius: 79px;
+    padding: 3vh;
+}
+
+.u-logo_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.u-logo_container img{
+    width: 25vh;
+}
+
+.u-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.u-inputs input{
+    margin-right: 1vh;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 45vh;    
+    height: 5vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+}
+
+.u-input_column {
+    margin-bottom: 35px;
+}
+
+.u-btn {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+}
+
+.u-btn button{
+    background-color: #ca9532;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 30vh;    
+    height: 5vh;
+    cursor: pointer;
+    transition: 900ms;
+    margin-right: 10px;
+}
+
+.u-btn button:hover {
+    background-color: white;
+    color: black;
+}
+

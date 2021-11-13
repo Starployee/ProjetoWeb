@@ -1,28 +1,24 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
-import Slider from '@mui/material/Slider';
 
 import './Personal.css'
 import { Link } from 'react-router-dom'
-
 import escala from '../../../../img/escala.png'
-
 import SearchBox from '../../../layout/SearchBox/SearchBox'
 
 function Personal() {
 
     const [ i, setI] = React.useState(0);
     const [bio, setBio] = React.useState("📊 Sua melhor ferramenta de estatísticas e scouts do CartolaFC! 🏆 Torne-se campeão de suas ligas com nossa ajuda!");
-    const [icone, setIcone] = React.useState(["fas fa-edit", "Editar"])
+    const [icone, setIcone] = React.useState(["", "Editar"])
 
     function inputBio () {
       if (i === 0 ){
-        setIcone(["far fa-save", "Salvar"])
+        setIcone([``, "Salvar"]);
         setI(1);
       }
       else {
         setI(0);
-        setIcone(["fas fa-edit", "Editar"])
+        setIcone([``, "Editar"]);
       }
     }
 
@@ -55,13 +51,13 @@ function Personal() {
                   className="p-btn"
                   onClick={inputBio}
               >
-                <i className={icone[0]}></i>{icone[1]}
+                  {icone[1]}
               </button>
 
             </div>
 
             <div className="bio">
-              {i === 1 ? (<input  onChange={newBio => handleInput(newBio)}></input>): bio}
+              {i === 1 ? (<input className="p-inputs" placeholder="Digite aqui sua nova bio" onChange={newBio => handleInput(newBio)}></input>): bio}
             </div>
           </div>
         </div>

@@ -1,0 +1,180 @@
+.oi-info_box-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.oi-info_box {
+    background-color: #dbb670;
+    height: 100%;
+    width: 60%;
+    border-radius: 79px;
+    padding: 3vh;
+}
+
+.oi-logo_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.oi-logo_container img{
+    width: 26vh;
+}
+
+.oi-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.oi-inputs input{
+    margin-right: 1vh;
+    margin-bottom: 35px;
+    outline: none;
+}
+
+#normalInputs {    
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 45vh;    
+    height: 5vh;
+}
+
+.oi-input_column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.oi-btn {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+}
+
+.oi-btn button{
+    background-color: #ca9532;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 45vh;    
+    height: 5vh;
+    cursor: pointer;
+    transition: 900ms;
+    margin-right: 10px;
+}
+
+.oi-btn button:hover {
+    background-color: white;
+    color: black;
+}
+.oi-search-box {
+    top: 50%;
+    left: 50%;
+    float: right;
+    height: 6vh;
+    width: 6vh;
+    background: white; 
+    border-radius: 40px;
+    margin-bottom: 20px;
+  }
+  .oi-search-box button{
+    border: none;
+    text-decoration: none;
+    color: black;
+  }
+  .oi-search-box button:hover {
+    color: white;
+    transition: 0.4s;
+  }
+  .oi-search-box:hover > .oi-search-btn {
+    background: #F2C438;
+  }
+  .oi-deleteInts:hover {
+    background-color: red;
+    }
+  .oi-search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+  }
+
+.oi-ativado {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 12px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+    padding: 0 6px;
+    transition: 900ms;
+    height: 6vh;
+  }
+
+.oi-search-btn {
+    color: black;
+    float: right;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    transition: 2s;
+  }
+.oi-deleteInts {
+    color: black;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    float: left;
+    cursor: pointer;
+}
+
+.oi-space {
+    float: right;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    }
+
+.oi-space-del {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    float: left;
+  }
+  

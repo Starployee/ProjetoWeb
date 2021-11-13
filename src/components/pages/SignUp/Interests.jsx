@@ -30,11 +30,13 @@ function Interests () {
     function renderInput () {
         return interesses.map((interesse, idx) => (<div class="I-search-box" key={idx}>
             
-            {idx !== 0 && (<button 
+            {idx !== 0 ? (<button 
+                className="deleteInts"
                 onClick={() => deleteInteresse(idx)}
             >
                 <i className="fas fa-minus-circle"></i>
-            </button>)}
+            </button>): classe === "ativado" && (<div 
+                className="space-del"></div>)}
 
             <input className={classe} type="text" value={interesse} name="" placeholder="Interesse" onChange={valor => handleChange(valor, idx)}/>    
             

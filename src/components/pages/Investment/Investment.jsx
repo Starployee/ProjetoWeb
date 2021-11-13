@@ -12,20 +12,21 @@ import SearchBox from '../../layout/SearchBox/SearchBox'
 
 function Investment () {
 
+    const [input, setInput] = React.useState(document.querySelector('input'))
+
     const [value, setValue] = React.useState(1000);
 
     const handleSliderChange = (event, newValue) => {
       setValue(newValue);
     };
-
+    
+    function resizeInput() {
+      this.style.width = this.value.length + "ch";
+    }
     const handleInputChange = (event) => {
       setValue(event.target.value === '' ? '' : Number(event.target.value));
     };
     
-    function valuetext(value) {
-      return `${value}°C`;
-    }
-
     return (
         <div className="Investment">
 
@@ -65,7 +66,7 @@ function Investment () {
 
                 <div className="i-investF">
                     <button className="i-invest-btn"> <i ></i> Proposta financeira </button>
-                    <Box width={250}>
+                    <Box width={200}>
 
                       <Slider
                         value={typeof value === 'number' ? value : 0}
@@ -76,8 +77,12 @@ function Investment () {
                         max={1000000}
                         min={100}
                       />
+
                     </Box>
-                    <input value={value} onChange={handleInputChange} className="input-value" placeholder="Valor de investimento"></input>
+                    <div className="input-value">
+                      <p>R$</p>
+                      <input value={value} onChange={handleInputChange} placeholder="100" />
+                    </div>
                 </div>
           </div>
           

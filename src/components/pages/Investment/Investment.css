@@ -78,10 +78,26 @@
 }
 
 .input-value {
+    display: flex;
+    width: 165px;
     outline: none;
     padding: 15px;
     border-radius: 30px;
     background-color: lightgray;
     border: none;
     text-decoration: none;
+}
+
+.input-value input{
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 100%;
+    background-color: lightgray;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+#input-invest {
+    display: none;
 }

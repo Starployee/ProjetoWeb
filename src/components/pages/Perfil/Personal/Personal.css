@@ -1,115 +1,132 @@
 .p-perfil {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    padding-left: 230px;
-    padding-right: 0px;
-    padding-top: 11%;
-    padding-bottom: 2%;
-  }
-  
-  .p-perfil-flex {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .p-perfil-img {
-    width: 20vh;
-    height: 20vh;
-    margin-right: 20vh;
-  }
-  
-  .p-perfil-info {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-  }
-  .p-perfil-seguidores {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .p-label{
-    margin-right: 3vh;
-    padding: 4px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-left: 230px;
+  padding-right: 0px;
+  padding-top: 11%;
+  padding-bottom: 2%;
+}
 
-  .p-btn{
-    padding: 5px 10px 5px 10px;
-    border-radius: 79px;
-    background-color: #BF7E04; 
-    border: none;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    transition: 900ms;
-  }
-  
-  .p-btn:hover {
-    background-color: #966710;
-  }
+.p-perfil-flex {
+  display: flex;
+  flex-direction: row;
+}
 
-  .p-btn svg{
-      margin-right: 5px;
-  }
-  
-  .p-number {
-    border: solid 0.5px #707070;
-    border-radius: 40px;
-    padding: 4px;
-  }
-  
-  .p-interesses {
-    width: 100%;
-  }
-  
-  .interesse-label {
-    display: flex;
-  }
+.p-perfil-img {
+  width: 20vh;
+  height: 20vh;
+  margin-right: 20vh;
+}
 
-  .interesse-label a{
-    text-decoration: none;
-  }
-  
-  .interesse-label p{
-    margin-left: 10px;   
-  }
-  
-  .p-perfil-info2 {
-    display: flex;
-  }
-  
-  .p-interesses p{
-    margin-bottom: 20px;
-  }
-  
-  .p-slider {
-    margin-top: calc(50% - 21px);
-    color: red;
-  }
-  .p-invest button{
-    padding: 15px 20px 15px 20px;
-    border-radius: 79px;
-    background-color: #BF7E04; 
-    border: none;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    transition: 900ms;
-  }
-  
-  .p-invest button:hover {
-    background-color: #966710;
-  }
-  
-  .p-invest svg{
-    margin-right: 10px;
-  }
+.p-perfil-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.p-perfil-seguidores {
+  display: flex;
+  flex-direction: row;
+}
+
+.p-label{
+  margin-right: 3vh;
+  padding: 4px;
+}
+
+
+.p-btn{
+  padding: 5px 10px 5px 10px;
+  border-radius: 79px;
+  background-color: #BF7E04; 
+  border: none;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  transition: 900ms;
+}
+
+.p-btn:hover {
+  background-color: #966710;
+}
+
+.p-btn svg{
+    margin-right: 5px;
+}
+
+.p-number {
+  border: solid 0.5px #707070;
+  border-radius: 40px;
+  padding: 4px;
+}
+
+.p-interesses {
+  width: 100%;
+}
+
+.interesse-label {
+  display: flex;
+}
+
+.interesse-label a{
+  text-decoration: none;
+}
+
+.interesse-label p{
+  margin-left: 10px;   
+}
+
+.p-perfil-info2 {
+  display: flex;
+}
+
+.p-interesses p{
+  margin-bottom: 20px;
+}
+
+.p-slider {
+  margin-top: calc(50% - 21px);
+  color: red;
+}
+.p-invest button{
+  padding: 15px 20px 15px 20px;
+  border-radius: 79px;
+  background-color: #BF7E04; 
+  border: none;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  transition: 900ms;
+}
+
+.p-invest button:hover {
+  background-color: #966710;
+}
+
+.p-invest svg{
+  margin-right: 10px;
+}
+
+.p-inputs {
+  background-color: lightgray;
+  border: none;
+  outline: none;
+  align-items: center;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  width: 45vh;    
+  height: 5vh;
+  margin: 10px;
+  margin-bottom: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

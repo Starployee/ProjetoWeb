@@ -7,7 +7,7 @@ import perfil from '../../../img/perfil.png'
 import investimento from '../../../img/investimento.png'
 import organizacao from '../../../img/organizacao.png'
 
-function SearchBox() {
+function Posts() {
     return (
         <div className="barra-ferramentas">
             <Link to="/Feed"><img src={logo} alt="" className="logo" /> </Link>    
@@ -19,13 +19,13 @@ function SearchBox() {
                 </a>
             </div>
 
-            <Link to="/CreateOrg" className="Icon-link"><img src={organizacao} alt="" className="b-icon" id="orga"/> 
+            <Link to="/" className="Icon-link"><img src={organizacao} alt="" className="b-icon" id="orga"/> 
              
                 <span class="tooltip">Organização</span>
 
             </Link> 
 
-             <Link to="/InvestmentList" className="Icon-link"><img src={investimento} alt="" className="b-icon" id="invest"/> 
+             <Link to="/" className="Icon-link"><img src={investimento} alt="" className="b-icon" id="invest"/> 
 
              <span class="tooltip">Investimento</span>
 
@@ -40,4 +40,4 @@ function SearchBox() {
         </div>
     )
 }
-export default SearchBox;
+export default Posts;

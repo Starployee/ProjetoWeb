@@ -16,16 +16,25 @@
 }
 
 .S-icon {
-    padding-left: 55vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .LogoIcon {
-    width: 30vh;
+    width: 30vh; 
+}
+
+.S-i-container {
+    display: flex;
+    justify-content: center;
 }
 
 .S-i-container {
     position: relative;
-    padding-left: 40vh;
+
 }
 
 .S-Informacoes {
@@ -33,6 +42,7 @@
     width: 79%;
     height: 80vh;
     background-color: #dbb670;
+        
 }
 
 .inputs {
@@ -63,19 +73,18 @@
     flex-direction: column;
 }
 
-
 .BTN-C {
-    width: 100%;
+    width: 79%;
+    height: 17vh;
     display: flex;
     flex-direction: column;
     text-decoration: none;
-
+    position: absolute;
+    bottom: 0;
 }
 
 .BTN-C button{
-    position: relative;
-    bottom: 0;
-    border-radius: 79px;
+    width: 100%;
     background-color: #ca9431; 
     border: none;
     align-items: center;
