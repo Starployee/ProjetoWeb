@@ -53,6 +53,7 @@
     width: 45vh;
     height: 5vh;
     transition: transform .2s;
+    font-weight: 400;
 }
 
 .espace {
@@ -62,4 +63,5 @@
 .BTNS button:hover{
     background-color: lightgrey;
     transform: scale(1.1);
+    transition:.3s ease;
 }

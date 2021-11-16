@@ -4,6 +4,10 @@ import './Personal.css'
 import { Link } from 'react-router-dom'
 import escala from '../../../../img/escala.png'
 import SearchBox from '../../../layout/SearchBox/SearchBox'
+import Post from '../../Posts/Posts'
+import CreatePost from '../../Posts/CreatePost'
+
+import post from '../../../../img/post.png'
 
 function Personal() {
 
@@ -86,7 +90,25 @@ function Personal() {
             </div>
 
           </div>
-      </div>  
+      </div>
+    
+    
+      <div className="post-section">
+        
+        <div className="posts-menu">
+
+            <nav>
+              <ul>
+                <li>Posts</li>
+                <li>Criar</li>
+              </ul>
+            </nav>
+
+        </div>
+
+        <Post />
+
+      </div>
     </div>
   );
 }
