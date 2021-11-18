@@ -130,3 +130,17 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.post-section{
+  padding: 0vh 15vh 10vh 15vh;
+}
+
+.posts-menu{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 5vh;
+}
+
+.posts-menu p{
+  margin-right: 5vh;
+}

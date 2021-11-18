@@ -10,21 +10,14 @@ import { Link } from 'react-router-dom'
 
 function  OrgInvest() {
 
-    const [classe, setClasse] = useState("oi-search-txt");
     const [interesses, setInteresses] = useState([""]);
 
     function handleChange (valor, idx) {
         setInteresses([...interesses.map((interesse, index) => index === idx ? valor.target.value: interesse )])
     }
 
-
     function btnFunction (){
-        if (classe === "oi-search-txt"){
-            setClasse("oi-ativado");
-        }
-        else {
-            setInteresses([...interesses, ""]);
-        }
+        setInteresses([...interesses, ""]);
     }
 
     function deleteInteresse (idx){
@@ -33,17 +26,17 @@ function  OrgInvest() {
      
     function renderInput () {
         return interesses.map((interesse, idx) => (<div class="oi-search-box" key={idx}>
+
             
-            {idx !== 0 ? (<button 
+            {idx !== 0 && (<button 
                 className="oi-deleteInts"
                 onClick={() => deleteInteresse(idx)}
             >
                 <i className="fas fa-minus-circle"></i>
-            </button>): classe === "oi-ativado" && (<div 
-                className="oi-space-del"></div>)}
+            </button>)}
 
-            <input className={classe} type="text" value={interesse} name="" placeholder="Interesse" onChange={valor => handleChange(valor, idx)}/>    
-            
+            <input className="oi-ativado" type="text" value={interesse} name="" placeholder="Interesse" onChange={valor => handleChange(valor, idx)}/>    
+
             {idx === interesses.length-1 ? 
             (<button 
                 className="oi-search-btn"
@@ -72,19 +65,20 @@ function  OrgInvest() {
                         <div className="oi-input_column">
                             <label>Interesses associados: </label>
                             {renderInput()}   
+                           
                         </div>
                         <div className="oi-input_column">
                             <label>Alcance de investimentos: </label>
                             <input id="normalInputs" placeholder="Min.:" ></input>
                             <input id="normalInputs" placeholder="Max.:"></input>
-                            
                         </div>
                     </div>
 
-                    <Link to="/" className="oi-btn">
-                        <button> Abrir para investimentos </button>
-                    </Link>
-
+                    <div className="oi-btn">
+                        <Link to="/OutSource" >
+                            <button> Abrir para investimentos </button>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

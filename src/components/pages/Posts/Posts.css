@@ -1,0 +1,35 @@
+.p-posts {
+  display: flex;
+}
+
+.p-IMG {
+  margin-right: 5vh;
+  width: 40vh;
+  height: 40vh;
+  background: url("../../../img/post.jpg");
+  background-size: 42vh;
+  padding: 1vh;
+}
+
+.p-legenda {
+  display: none;  
+  max-width: 40vh;
+  max-height: 15vh;
+  font-size: 14px;
+  display: inline-block; 
+  text-align: justify;
+  display: inline-block; 
+  text-align: justify;
+  opacity: 0;
+  transition: 900ms;
+}
+
+.p-IMG:hover > .p-legenda{
+  color:#fff;
+  opacity: 1;
+}
+
+
+.p-space{
+  height: 30vh;
+}
