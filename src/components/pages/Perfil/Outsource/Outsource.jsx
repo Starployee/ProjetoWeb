@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import escala from '../../../../img/escala.png'
 
 import SearchBox from '../../../layout/SearchBox/SearchBox'
+import Post from '../../Posts/Posts'
+
 
 function Outsource() {
   return (
@@ -62,7 +64,18 @@ function Outsource() {
 
             </div>
           </div>
-      </div>  
+      </div> 
+
+      <div className="post-section">
+        <hr/>
+        
+        <div className="aa">
+          <p>Posts </p>
+        </div>
+        
+        <Post/>
+
+      </div> 
     </div>
   );
 }

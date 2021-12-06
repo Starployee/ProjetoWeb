@@ -25,15 +25,15 @@ function About() {
         <div className="about-text">
           <h1>Participantes</h1>
           <div className="participant">
-            <img src={edu} alt="" className="p-photo"  />
+            <img src={edu} alt="" className="a-photo"  />
               <p>Eduardo Alexandre Pozzobom (aluno) </p>
           </div>
           <div className="participant">
-            <img src={gus} alt="" className="p-photo"  />
+            <img src={gus} alt="" className="a-photo"  />
               <p>Gustavo Cabral Correia (aluno) </p>
           </div>
           <div className="participant">
-            <img src={hen} alt="" className="p-photo"  />
+            <img src={hen} alt="" className="a-photo"  />
               <p>Henrique William (aluno) </p>
           </div>
               <h1>Objetivos</h1>

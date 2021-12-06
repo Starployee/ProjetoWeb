@@ -1,0 +1,115 @@
+.C-CreatePost {
+    margin-top: 2vw;
+    display:flex;
+    justify-content: center;
+}
+
+.CreatePost{
+    border-radius: 2vh;
+    border: 1px solid #ABABAB;
+    width: 50vw;
+    height: 50vh; 
+}
+
+#create{
+    height: 5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ABABAB;
+}
+
+#create img{ 
+    display: flex;
+    justify-content: right;
+}
+
+.PostInf{
+    display: flex;
+}
+
+.ImgSection{    
+    border-right: 1px solid #ABABAB;
+    width: 30vw;
+    height: 45vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UpBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ca9532;
+    border: none;
+    color: white;
+    border-radius: 5vh;
+    width: 20vw;    
+    height: 5vh;
+    cursor: pointer;
+    transition: 900ms;
+}
+
+.UpBtn:hover{
+    background-color: #A1772A;
+}
+
+.PostImg{
+    width: 28vw;
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 0vh 0vh 0vh 2vh;
+}
+
+#PostIn {
+    display: none;
+}
+
+.PostSubtitle{
+    padding: 1vw;
+    width: 20vw;
+}
+
+.UserInf {
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    margin-bottom: 1vh;
+}
+
+.UserInf img{
+    margin-right: 2vw;
+    width: 3vw;
+    height: 3vw;
+}
+
+.PostSubtitle textarea{
+    width: 20vw;
+    height: 20vh;
+    resize: none;
+    line-break: loose;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 35px;
+    outline: none;
+}
+
+.PostAddBtn {
+    display: flex;
+    justify-content: right;
+}
+
+.PostAddBtn button{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: red;
+    cursor: pointer;
+    transition: 900ms;
+    font-size: 2.5vh;
+}

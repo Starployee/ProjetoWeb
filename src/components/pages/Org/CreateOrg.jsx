@@ -1,10 +1,14 @@
+import React from "react";
 import './CreateOrg.css';
 import BarraFerrementas from '../../layout/SearchBox/SearchBox'
-import LogoIcon from '../../../img/Logo-icone.png'
+import UpImg from '../../../img/UpImg.png'
 
 import { Link } from 'react-router-dom'
 
 function  CreateOrg() {
+
+  const [image, setImage] = React.useState('');  
+
     return (
         <div className="c-Container">
             
@@ -15,8 +19,20 @@ function  CreateOrg() {
             <div className="c-info_box-container">
                 <div className="c-info_box">
                     
+                    
                     <div className="c-logo_container">
-                        <img src={LogoIcon} />
+
+                        <input id="imgUp" type="file" name="image" onChange={e => setImage(e.target.files[0])} /><br /><br />
+                        
+                        <label for="imgUp"  id="load-file" type="file">
+
+                            {image ? <img src={URL.createObjectURL(image)} className="ImgOrg"/> : <img src={UpImg} className="ImgOrg"/>}
+                            <p className="UpLabel">
+                                Carregar uma foto
+                                <hr className="linha"/>
+                            </p>
+                        </label>
+
                     </div>
                     
                     <div className="c-inputs">

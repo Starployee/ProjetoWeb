@@ -8,10 +8,13 @@ import Post from '../../Posts/Posts'
 import CreatePost from '../../Posts/CreatePost'
 
 import post from '../../../../img/post.png'
+import { Button } from '@mui/material';
 
 function Personal() {
 
-    const [ i, setI] = React.useState(0);
+    const [pag, setPag] = React.useState("post");
+
+    const [i, setI] = React.useState(0);
     const [bio, setBio] = React.useState("📊 Sua melhor ferramenta de estatísticas e scouts do CartolaFC! 🏆 Torne-se campeão de suas ligas com nossa ajuda!");
     const [icone, setIcone] = React.useState(["", "Editar"])
 
@@ -91,16 +94,16 @@ function Personal() {
 
           </div>
       </div>
-    
-    
+
       <div className="post-section">
         <hr/>
-        <div className="posts-menu">
-              <p>Posts</p>
-              <p>Criar</p>
+        
+        <div className="aa">
+          <button className="btns" onClick={e => setPag("post")}><p>Posts </p></button>
+          <button className="btns" onClick={e => setPag("CreatePost")}><p>Criar </p></button>
         </div>
-
-        <Post />
+        
+        {pag === "post" ? (<Post/>): (<CreatePost />)}
 
       </div>
     </div>

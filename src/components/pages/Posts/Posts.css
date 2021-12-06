@@ -1,20 +1,21 @@
 .p-posts {
   display: flex;
+  padding-top: 10px;
 }
 
 .p-IMG {
-  margin-right: 5vh;
-  width: 40vh;
-  height: 40vh;
+  margin-right: 1vw;
+  width: 20vw;
+  height: 20vw;
   background: url("../../../img/post.jpg");
-  background-size: 42vh;
-  padding: 1vh;
+  background-size: 20vw;
 }
 
 .p-legenda {
+  padding: 10px;
   display: none;  
-  max-width: 40vh;
-  max-height: 15vh;
+  max-width: 20vw;
+  max-height: 5vw;
   font-size: 14px;
   display: inline-block; 
   text-align: justify;
@@ -29,7 +30,7 @@
   opacity: 1;
 }
 
-
 .p-space{
-  height: 30vh;
+  height: 14vw;
 }
+

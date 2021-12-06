@@ -60,9 +60,9 @@ textarea.text_area {
     background-color: #ca9532;
     border: none;
     color: white;
-    font-size: 16px;
+    font-size: 3vh;
     border-radius: 30px;
-    width: 45vh;    
+    width: 20vw;    
     height: 5vh;
     cursor: pointer;
     transition: 900ms;
@@ -73,3 +73,27 @@ textarea.text_area {
     color: black;
 }
 
+#imgUp {
+    display: none;
+}
+
+.ImgOrg{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 25vh;
+}
+
+.linha{
+    width: 0vh;
+    transition: 900ms;
+}
+
+#load-file:hover > .linha{
+    width: 25vh;
+}
+
+.UpLabel {
+    text-align: center;
+    max-width: 25vh;
+    max-height: 25vh;
+}

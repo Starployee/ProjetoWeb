@@ -19,9 +19,9 @@ function Feed() {
       </header>
       
       {/* post timeline*/}
+      <div className="c-inf">
         <div className="inf">
               <div className="post">
-              
                 <div className="user-profile">{/*foto do perfil*/}
                   
                   <img src={escala} alt="" className="feed-img"></img>
@@ -83,6 +83,7 @@ function Feed() {
               <Link to="/about"><a href="/" className="sobre-link">Sobre</a></Link>
           </div>
         </div>
+      </div>
     </div>
   );
 }
